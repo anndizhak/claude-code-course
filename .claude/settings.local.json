@@ -22,6 +22,17 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node hooks/type_check_hook.js"
+          }
+        ]
+      }
     ]
   },
   "mcpServers": {
