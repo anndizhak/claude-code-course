@@ -38,6 +38,15 @@
             "command": "node hooks/type_check_hook.js"
           }
         ]
+      },
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node hooks/logger_hook.js"
+          }
+        ]
       }
     ]
   },
