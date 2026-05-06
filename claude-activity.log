@@ -1,0 +1,9 @@
+[2026-05-06T17:01:30.416Z] tool=Glob detail=shepit-website/**/*
+[2026-05-06T17:01:33.705Z] tool=Read detail=D:\semester_2\MINIPROJECT\claude-code-course\shepit-website\SHEPIT-1 (5).pdf
+[2026-05-06T17:01:33.705Z] tool=Read detail=D:\semester_2\MINIPROJECT\claude-code-course\shepit-website\SHEPIT-1 (4).pdf
+[2026-05-06T17:05:57.038Z] tool=Write detail=D:\semester_2\MINIPROJECT\claude-code-course\shepit-website\index.html
+[2026-05-06T17:07:35.508Z] tool=Write detail=D:\semester_2\MINIPROJECT\claude-code-course\shepit-website\style.css
+[2026-05-06T17:07:38.419Z] tool=Glob detail=shepit-website/*.{html,css}
+[2026-05-06T17:13:16.228Z] tool=Read detail=D:\semester_2\MINIPROJECT\claude-code-course\shepit-website\index.html
+[2026-05-06T17:13:16.397Z] tool=Read detail=D:\semester_2\MINIPROJECT\claude-code-course\shepit-website\style.css
+[2026-05-06T17:16:21.159Z] tool=Write detail=D:\semester_2\MINIPROJECT\claude-code-course\shepit-website\style.css

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ШЕПІТ — Музична студія у Львові</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">ШЕПІТ</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#pricing">Ціни</a></li>
+        <li><a href="#audience">Для кого</a></li>
+        <li><a href="#contact" class="btn-nav">Записатись</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-inner">
+
+      <div class="hero-content">
+        <div class="hero-badge">✦ Музична студія · Львів</div>
+        <h1 class="hero-title">ШЕПІТ</h1>
+        <p class="hero-tagline">Навчись грати та співати —<br />так, як ти відчуваєш</p>
+        <p class="hero-sub">Вокал · Фортепіано · Гітара &nbsp;|&nbsp; Офлайн та онлайн</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Записатись на урок</a>
+          <a href="#about" class="btn btn-ghost">Дізнатись більше</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-ring outer-ring"></div>
+        <div class="visual-ring mid-ring"></div>
+        <div class="visual-core">
+          <span class="visual-note">♪</span>
+        </div>
+        <div class="wave-bars">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Гортати вниз">
+      <span>Гортай вниз</span>
+      <div class="scroll-chevron">↓</div>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section-light" id="about">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Про студію</span>
+        <h2>Чому <span class="accent">ШЕПІТ</span>?</h2>
+        <p>Ми не просто школа — ми спільнота людей, які люблять музику і хочуть творити</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon">🔄</div>
+          <h3>Гібридний формат</h3>
+          <p>Навчайся у студії у Львові або онлайн через Zoom — твій розклад, твої умови. Адаптуємось до графіку кожного учня.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">🇺🇦</div>
+          <h3>Українська музика та культура</h3>
+          <p>Фокус на сучасній та народній українській музиці. Вивчаємо пісні, які резонують із тобою.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">🎙️</div>
+          <h3>Живі виступи</h3>
+          <p>Регулярні відкриті мікрофони для учнів — справжня сцена, живий звук і перший досвід виступу перед публікою.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">💬</div>
+          <h3>Спільнота, не просто школа</h3>
+          <p>Закрита спільнота учнів у WhatsApp та Telegram, взаємна підтримка і знижки для постійних учнів.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">📈</div>
+          <h3>Щомісячний звіт прогресу</h3>
+          <p>Відстежуй свій ріст — щомісяця отримуєш звіт про досягнення та напрями для вдосконалення.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">✨</div>
+          <h3>Сучасні методики</h3>
+          <p>Оновлені підходи без застарілих вправ. Вайбові, прогресивні вчителі — практика з першого уроку.</p>
+        </div>
+      </div>
+
+      <div class="about-quote">
+        <blockquote>
+          "Індивідуальні та групові заняття ШЕПІТ дозволяють творчій молоді швидко опанувати музичні інструменти та розвинути вокальні навички без застарілих методів — на відміну від традиційних музичних шкіл."
+        </blockquote>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section-white" id="services">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Послуги</span>
+        <h2>Що ми <span class="accent">викладаємо</span></h2>
+        <p>Індивідуальні та групові уроки у зручному форматі — обираєш ти</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">🎤</div>
+          <h3>Вокал</h3>
+          <p>Постановка голосу, техніка дихання, сценічна присутність і репертуар на твій смак — від поп-музики до народних пісень.</p>
+          <ul class="service-features">
+            <li>Індивідуальні уроки</li>
+            <li>Групові заняття</li>
+            <li>Офлайн та онлайн</li>
+            <li>Підготовка до виступів</li>
+          </ul>
+          <div class="service-price">від 450 грн / урок</div>
+          <a href="#pricing" class="btn btn-outline-teal">Детальніше</a>
+        </div>
+
+        <div class="service-card service-featured">
+          <div class="service-badge-label">Хіт 🔥</div>
+          <div class="service-icon">🎹</div>
+          <h3>Фортепіано</h3>
+          <p>Від нотної грамоти до складних творів. Класика, джаз, поп-музика — обираєш ти. Підходить для дітей і дорослих.</p>
+          <ul class="service-features">
+            <li>Індивідуальні уроки</li>
+            <li>Групові заняття</li>
+            <li>Офлайн та онлайн</li>
+            <li>Для будь-якого рівня</li>
+          </ul>
+          <div class="service-price">від 430 грн / урок</div>
+          <a href="#pricing" class="btn btn-primary">Детальніше</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🎸</div>
+          <h3>Гітара</h3>
+          <p>Акорди, бої, перебори і твої улюблені пісні — з першого уроку. Акустична та електрогітара.</p>
+          <ul class="service-features">
+            <li>Індивідуальні уроки</li>
+            <li>Групові заняття</li>
+            <li>Офлайн та онлайн</li>
+            <li>Акустична та електро</li>
+          </ul>
+          <div class="service-price">від 420 грн / урок</div>
+          <a href="#pricing" class="btn btn-outline-teal">Детальніше</a>
+        </div>
+
+      </div>
+
+      <div class="formats-strip">
+        <div class="format-item">
+          <span class="format-emoji">📍</span>
+          <div>
+            <strong>Офлайн — Львів</strong>
+            <small>У нашій студії</small>
+          </div>
+        </div>
+        <div class="format-plus">+</div>
+        <div class="format-item">
+          <span class="format-emoji">💻</span>
+          <div>
+            <strong>Онлайн — Zoom / Google Meet</strong>
+            <small>На 10% дешевше</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing section-dark" id="pricing">
+    <div class="container">
+
+      <div class="section-header light">
+        <span class="section-tag">Ціни</span>
+        <h2>Прозорі <span class="accent">тарифи</span></h2>
+        <p>Доступні ціни без прихованих платежів. Онлайн-уроки — на 10% дешевше.</p>
+      </div>
+
+      <!-- Single lessons -->
+      <p class="pricing-sub-label">Разові уроки (офлайн)</p>
+      <div class="single-row">
+        <div class="single-card">
+          <span class="single-icon">🎤</span>
+          <span class="single-name">Вокал</span>
+          <span class="single-price">450 грн</span>
+        </div>
+        <div class="single-card">
+          <span class="single-icon">🎹</span>
+          <span class="single-name">Фортепіано</span>
+          <span class="single-price">430 грн</span>
+        </div>
+        <div class="single-card">
+          <span class="single-icon">🎸</span>
+          <span class="single-name">Гітара</span>
+          <span class="single-price">420 грн</span>
+        </div>
+      </div>
+
+      <!-- Packages -->
+      <p class="pricing-sub-label">Пакети занять (індивідуальні)</p>
+      <div class="pricing-grid">
+
+        <div class="pricing-card">
+          <div class="pc-name">Стартер</div>
+          <div class="pc-lessons">4 уроки</div>
+          <div class="pc-price">1&nbsp;750 <span>грн</span></div>
+          <div class="pc-per">~437 грн / урок</div>
+          <ul class="pc-features">
+            <li>Вибір інструменту</li>
+            <li>Персональний підхід</li>
+            <li>Офлайн або онлайн</li>
+            <li>Щомісячний звіт</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-white">Обрати</a>
+        </div>
+
+        <div class="pricing-card pricing-popular">
+          <div class="popular-ribbon">Найпопулярніший ⭐</div>
+          <div class="pc-name">Базовий</div>
+          <div class="pc-lessons">8 уроків</div>
+          <div class="pc-price">3&nbsp;400 <span>грн</span></div>
+          <div class="pc-per">~425 грн / урок</div>
+          <ul class="pc-features">
+            <li>Вибір інструменту</li>
+            <li>Персональний підхід</li>
+            <li>Офлайн або онлайн</li>
+            <li>Щомісячний звіт</li>
+            <li>Доступ до спільноти</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Обрати</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pc-name">Про</div>
+          <div class="pc-lessons">12 уроків</div>
+          <div class="pc-price">4&nbsp;800 <span>грн</span></div>
+          <div class="pc-per">~400 грн / урок</div>
+          <ul class="pc-features">
+            <li>Вибір інструменту</li>
+            <li>Персональний підхід</li>
+            <li>Офлайн або онлайн</li>
+            <li>Щомісячний звіт</li>
+            <li>Доступ до спільноти</li>
+            <li>Підготовка до виступу</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-white">Обрати</a>
+        </div>
+
+      </div>
+
+      <!-- Group lessons -->
+      <p class="pricing-sub-label">Групові заняття</p>
+      <div class="group-row">
+        <div class="group-card">
+          <div class="group-icon">👥</div>
+          <h3>Разовий груповий урок</h3>
+          <div class="group-price">220 грн<span> / особа</span></div>
+          <p>Навчайся в компанії однодумців</p>
+        </div>
+        <div class="group-card group-featured">
+          <div class="group-icon">🎯</div>
+          <h3>Пакет 8 групових уроків</h3>
+          <div class="group-price">1&nbsp;600 грн<span> / особа</span></div>
+          <p>Найвигідніший варіант для тих, хто обирає командний формат</p>
+        </div>
+      </div>
+
+      <div class="online-banner">
+        💻 &nbsp;<strong>Онлайн-уроки на 10% дешевше</strong> — проводимо через Zoom або Google Meet
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== AUDIENCE ===== -->
+  <section class="audience section-light" id="audience">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Для кого</span>
+        <h2>ШЕПІТ — <span class="accent">для тебе</span></h2>
+        <p>Навчаємо з нуля і розвиваємо тих, хто вже грає</p>
+      </div>
+
+      <div class="audience-grid">
+        <div class="audience-card">
+          <div class="audience-age">18–25</div>
+          <h3>Молодь та студенти</h3>
+          <p>Хочеш займатись творчістю після пар? Ми підлаштовуємось під твій графік — гнучкий розклад і зручний формат.</p>
+        </div>
+        <div class="audience-card">
+          <div class="audience-age">25–45</div>
+          <h3>Дорослі початківці</h3>
+          <p>Ніколи не пізно почати. Реалізуй давню мрію навчитись грати або співати — з нуля та без тиску.</p>
+        </div>
+        <div class="audience-card">
+          <div class="audience-age">8–17</div>
+          <h3>Діти та підлітки</h3>
+          <p>Розвиток творчих здібностей з раннього віку. Уроки адаптовані для юних музикантів — цікаво та ефективно.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section-dark" id="contact">
+    <div class="container">
+
+      <div class="section-header light">
+        <span class="section-tag">Контакти</span>
+        <h2>Готовий <span class="accent">почати?</span></h2>
+        <p>Запишись на пробний урок або напиши нам у соцмережах — відповідаємо протягом дня</p>
+      </div>
+
+      <div class="contact-layout">
+
+        <div class="contact-cta-box">
+          <h3>Запишись зараз</h3>
+          <p>Залиш заявку і ми підберемо зручний час, формат та інструмент спеціально для тебе.</p>
+          <a href="https://instagram.com/shepit_studio" class="btn btn-primary" target="_blank" rel="noopener">📩 Написати в Instagram</a>
+        </div>
+
+        <div class="social-section">
+          <h3>Ми в соцмережах</h3>
+          <div class="social-grid">
+            <a href="#" class="social-tile" target="_blank" rel="noopener">
+              <span class="social-tile-icon">📸</span>
+              <span class="social-tile-name">Instagram</span>
+            </a>
+            <a href="#" class="social-tile" target="_blank" rel="noopener">
+              <span class="social-tile-icon">🎵</span>
+              <span class="social-tile-name">TikTok</span>
+            </a>
+            <a href="#" class="social-tile" target="_blank" rel="noopener">
+              <span class="social-tile-icon">📘</span>
+              <span class="social-tile-name">Facebook</span>
+            </a>
+            <a href="#" class="social-tile" target="_blank" rel="noopener">
+              <span class="social-tile-icon">🎥</span>
+              <span class="social-tile-name">Zoom урок</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">ШЕПІТ</span>
+        <p>Музична студія у Львові.<br />Вокал, фортепіано, гітара — офлайн та онлайн.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">Про нас</a>
+        <a href="#services">Послуги</a>
+        <a href="#pricing">Ціни</a>
+        <a href="#audience">Для кого</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 ШЕПІТ. Усі права захищені. Львів, Україна 🇺🇦</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ---- Navbar scroll effect ----
+    const navbar = document.getElementById('navbar');
+    const onScroll = () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // ---- Burger menu ----
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('nav-links');
+    burger.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      burger.classList.toggle('active', open);
+    });
+
+    // ---- Close menu on link click ----
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        burger.classList.remove('active');
+      });
+    });
+
+    // ---- Smooth scroll ----
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', e => {
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // ---- Scroll-in animations ----
+    const animated = document.querySelectorAll(
+      '.about-card, .service-card, .pricing-card, .audience-card, .group-card, .single-card, .social-tile'
+    );
+    animated.forEach(el => el.classList.add('anim'));
+
+    const io = new IntersectionObserver(entries => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          entry.target.style.transitionDelay = (i % 6) * 60 + 'ms';
+          entry.target.classList.add('anim-in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    animated.forEach(el => io.observe(el));
+  </script>
+
+</body>
+</html>
